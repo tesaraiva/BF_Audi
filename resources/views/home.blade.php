@@ -1,5 +1,7 @@
 @extends('master.main')
 
+@section('pageTitle', 'Home')
+
 @section('content')
 
 @component('components.carousel')

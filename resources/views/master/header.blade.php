@@ -5,17 +5,17 @@
   </button>
 
   <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a class="nav-link text-white" href="/">Home<span class="sr-only">(current)</span></a>
+    <li class="nav-item {{ Request::routeIs('home') ? 'active' : ''}}">
+      <a class="nav-link {{ Request::routeIs('home') ? 'text-white' : 'text-white-50'}}" href="{{ route('home') }}">Home</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-white-50" href="/gallery">Gallery</a>
+    <li class="nav-item {{ Request::routeIs('gallery') ? 'active' : ''}}">
+      <a class="nav-link {{ Request::routeIs('gallery') ? 'text-white' : 'text-white-50'}}" href=" {{ route('gallery') }}">Gallery</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-white-50" href="/blog">Blog</a>
+    <li class="nav-item {{ Request::routeIs('blog') ? 'active' : ''}}">
+      <a class="nav-link {{ Request::routeIs('blog') ? 'text-white' : 'text-white-50'}}" href="{{ route('blog') }}">Blog</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-white-50" href="/contacts">Contact Us</a>
+    <li class="nav-item {{ Request::routeIs('contacts') ? 'active' : ''}}">
+      <a class="nav-link {{ Request::routeIs('contacts') ? 'text-white' : 'text-white-50'}}" href="{{ route('contacts') }}">Contact Us</a>
     </li>
   </ul>
   <form class="form-inline my-2 my-lg-0">
