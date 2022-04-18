@@ -1,5 +1,7 @@
 @extends ('master.main')
 
+@section('pageTitle', 'Blog')
+
 @section('content')
 
 <section class="container">

@@ -1,5 +1,7 @@
 @extends('master.main')
 
+@section('pageTitle', 'Contacts')
+
 @section('content')
 
 <section class="container">

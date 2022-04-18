@@ -17,12 +17,10 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/gallery', function () {
-    return view('gallery');
-});
+Route::get('/gallery', 'GalleryController@index')->name('gallery');
 
 Route::get('/blog', 'BlogController@index')->name('blog');
 
 Route::get('/contacts', function () {
     return view('contacts');
-});
+})->name('contacts');
