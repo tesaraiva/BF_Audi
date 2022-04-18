@@ -21,6 +21,8 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::get('/blog', 'BlogController@index')->name('blog');
+
 Route::get('/contacts', function () {
     return view('contacts');
 });
