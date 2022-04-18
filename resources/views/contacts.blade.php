@@ -9,7 +9,6 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, iure! </p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia reprehenderit harum atque cupiditate distinctio porro recusandae minima vero voluptatem sed quas asperiores nihil officiis tenetur, quisquam quo. Culpa, magnam recusandae!</p>
       <p>Nesciunt eaque explicabo porro a totam! Aliquid voluptas cupiditate illum ducimus saepe dicta eaque iste provident id? Dicta, enim voluptatibus.</p>
-
       <form>
         <div class="form-group">
           <label for="formGroupExampleInput">Email address</label>
